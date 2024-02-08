@@ -1,0 +1,133 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav{
+    background-color: #2C3E50 ;
+    z-index: 999;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.active{
+  background-color: #1ABC9C;
+}
+
+footer{
+  background-color: #2C3E50;
+  color: white;
+}
+
+.icon-item{
+  border: 1px solid white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.endOfFooter {
+background-color: #1A252F;
+}
+
+.start-page , .about-section {
+  height: max-content;
+  background-color: #1ABC9C;
+}
+
+.start-image {
+  width: 255px;
+}
+
+.star {
+  width: 80px;
+  height: 4px;
+  background-color: white;
+}
+
+.about-title p {
+  width: 95%;
+  margin: auto;
+}
+
+.contact-star {
+  width: 80px;
+  height: 4px;
+  background-color: #2C3E50;
+}
+
+.star-color{
+    color: #2C3E50;
+}
+
+.contact-title h1 , .portfolio-title h1 {
+  color: #2C3E50 ;
+}
+
+.portfolio-item:hover .image-layer{
+opacity: 85%;
+}
+
+.image-layer{
+  opacity: 0;
+   background-color: #19AB8E ;
+  transition: all .5s;
+}
+
+
+/* ******************************************/
+
+/* .contact-section{
+  height: 100vh;
+} */
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 1rem;
+  
+}
+
+.form .input-span {
+  width: 100%;
+}
+
+form input[type="email"],
+form input[type="password"] ,
+form input[type="text"] ,
+form input[type="number"]  {
+  border-radius: 0.5rem;
+  padding: 1rem 0.75rem;
+  width: 100%;
+  border: none;
+  box-shadow: 2px 2px 5px rgb(197, 186, 186);
+}
+
+form input[type="text"]:focus,
+form input[type="number"]:focus,
+form input[type="email"]:focus,
+form input[type="password"]:focus {
+  outline: 2px solid #1ABC9C;
+}
+
+form .submit {
+  padding: .75rem 2rem;
+  gap: 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #2C3E50;
+  color:white;
+  border: none;
+  cursor: pointer;
+  transition: all 300ms;
+}
+
+form .submit:hover {
+  background-color: #1ABC9C;
+}
+
